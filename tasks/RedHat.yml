@@ -12,12 +12,6 @@
   yum:
     name: figlet
 
-- name: Ensure lolcat is installed
-  gem:
-    name: lolcat
-    state: latest
-    user_install: no
-
 - name: Copy motd file
   copy:
     src: files/login-info.sh

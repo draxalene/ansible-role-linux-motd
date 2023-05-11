@@ -21,14 +21,6 @@
     group: root
     mode: 0755
 
-- name: Add 52-help file
-  copy:
-    src: files/52-hoplacloud-help
-    dest: /etc/update-motd.d/52-hoplacloud-help
-    owner: root
-    group: root
-    mode: 0755
-
 - name: Add 09-header file
   copy:
     src: files/09-hoplacloud-header

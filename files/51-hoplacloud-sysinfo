@@ -2,7 +2,7 @@
 if [ -f "/etc/hopla.cloud-roles" ]
 then
             printf "\n"
-            printf "Deployed OneClick apps (supported by hopla.cloud):"
+            printf "Deployed OneClick apps (supported by draxalene):"
             printf "\n"
             cat /etc/hopla.cloud-roles
     fi

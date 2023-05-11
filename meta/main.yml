@@ -1,7 +1,7 @@
 galaxy_info:
   role_name: linux_motd
-  author: hoplacloud
-  description: Hopla.cloud role for ansible to set motd
+  author: Draxalene
+  description: Draxalene role for ansible to set motd (by Hopla.cloud)
   company: hopla.cloud
   license: GPLv3
 
@@ -12,6 +12,7 @@ galaxy_info:
       versions:
         - bionic
         - xenial
+        - jammy
     - name: EL
       versions:
         - 7
@@ -19,6 +20,7 @@ galaxy_info:
   galaxy_tags:
     - linux
     - motd
+    - draxalene
     - hoplacloud
 
 dependencies: []

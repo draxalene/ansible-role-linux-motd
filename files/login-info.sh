@@ -1,17 +1,14 @@
 #!/bin/bash
 printf "\n"
-figlet hopla.cloud | /usr/local/bin/lolcat -f
+figlet $(hostname) | /usr/local/bin/lolcat -f
 printf "\n"
 if [ -f "/etc/hopla.cloud-roles" ]
 then
             printf "\n"
-            printf "Deployed OneClick apps (supported by hopla.cloud):"
+            printf "Deployed OneClick apps (supported by Draxalene):"
             printf "\n"
             cat /etc/hopla.cloud-roles
     fi
-printf "\n"
-printf "Official documentation: https://wiki.hopla.cloud"
-printf "\n"
 # Basic info
 HOSTNAME=`uname -n`
 ROOT=`df -Ph | grep da1 | awk '{print $4}' | tr -d '\n'`
